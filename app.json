@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "CoronaApp",
+    "description": "App que mostra os dados atualizados dos casos de Covid19",
+    "scheme": "coronaapp",
+    "slug": "coronaapp",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "version": "0.0.9",
+    "platforms": ["android", "ios", "web"],
+    "orientation": "portrait",
+    "primaryColor": "#FFFFFF",
+    "icon": "src/assets/icon.png",
+    "splash": {
+      "backgroundColor": "#FFFFFF",
+      "image": "src/assets/splash.png",
+      "resizeMode": "contain"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["src/assets/**/*"],
+    "android": {
+      "package": "br.com.uppdate.coronaapp",
+      "versionCode": 3,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "READ_PHONE_STATE",
+        "READ_CONTACTS"
+      ]
+    },
+    "ios": {
+      "bundleIdentifier": "br.com.uppdate.coronaapp",
+      "buildNumber": "0.0.3",
+      "supportsTablet": false
+    }
+  }
+}
